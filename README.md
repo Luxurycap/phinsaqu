@@ -1,3 +1,1 @@
-Web app
-
-for aquaculture startup
+Web app for an aquaculture startup.
