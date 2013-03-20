@@ -1,4 +1,11 @@
 Phinsaqu::Application.routes.draw do
+  get 'team' => 'pages#team'
+  get 'news' => 'pages#news'
+  get 'invest' => 'pages#invest'
+  get 'contact' => 'pages#contact'
+
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
