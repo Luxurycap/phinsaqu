@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Phinsaqu</title>
+  <title>Phinsaquaria</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id="head_container">
+			<header id="logo">
+				<h1>PHINS <span>Aquaria</span></hi>
+				<nav id="nav">
+					<ul>
+						<li><%= link_to "Home", root_path %></li>
+						<li><%= link_to "Team", team_path %></li>
+						<li><%= link_to "Aquaculture", aquaculture_path %></li>
+						<li><%= link_to "Invest", invest_path %></li>
+						<li><%= link_to "Contact", contact_path %></li>
+					</ul>
+				</nav>		
+			</header>
+		</div>			
 
 <%= yield %>
 

@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def team
   end
 
-  def news
+  def aquaculture
   end
 
   def invest
