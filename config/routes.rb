@@ -1,6 +1,6 @@
 Phinsaqu::Application.routes.draw do
   get 'team' => 'pages#team'
-  get 'news' => 'pages#news'
+  get 'aquaculture' => 'pages#aquaculture'
   get 'invest' => 'pages#invest'
   get 'contact' => 'pages#contact'
 
